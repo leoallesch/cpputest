@@ -25,11 +25,8 @@ gcov*.html
 ErrorLogs
 testResults
 .metadata
-/ipch
 Debug
-Release
 */Debug/*
-*/Release/*
 *.exe
 *.obj
 *.ncb
@@ -45,19 +42,13 @@ Release
 *.tlog
 *.cache
 *.user
-*.VC.db
-*.VC.opendb
 _build_
 _build
 builds/*gcc*
-cpputest_build/Makefile
-cpputest_build/generated
-cpputest_build/src
-cpputest_build/tests
 /.deps
 CppUTestExtTests
 CppUTestTests
-/Makefile
+Makefile
 config.h
 config.h.in
 config.status
@@ -82,24 +73,3 @@ m4/ltversion.m4
 m4/lt~obsolete.m4
 missing
 test-driver
-platforms/iar/settings
-cpputest_*.xml
-generated/
-*.deps/
-*.dirstamp
-*.trs
-
-#IAR automatically generated files
-*.dep
-*.ewt
-
-# Watcom
-*.LIB
-*.LST
-*.EXE
-*.LOG
-/console_output
-/exit
-
-# Builds
-/cpputest_build/
