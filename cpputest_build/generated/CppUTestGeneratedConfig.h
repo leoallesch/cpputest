@@ -10,12 +10,12 @@
 #define CPPUTEST_HAVE_DLFCN_H 1
 #endif
 
-/* Define to 1 if you have the 'fork' function. */
+/* Define to 1 if you have the `fork' function. */
 #ifndef CPPUTEST_HAVE_FORK
 #define CPPUTEST_HAVE_FORK 1
 #endif
 
-/* Define to 1 if you have the 'gettimeofday' function. */
+/* Define to 1 if you have the `gettimeofday' function. */
 #ifndef CPPUTEST_HAVE_GETTIMEOFDAY
 #define CPPUTEST_HAVE_GETTIMEOFDAY 1
 #endif
@@ -25,12 +25,12 @@
 #define CPPUTEST_HAVE_INTTYPES_H 1
 #endif
 
-/* Define to 1 if the system has the type 'long long int'. */
+/* Define to 1 if the system has the type `long long int'. */
 #ifndef CPPUTEST_HAVE_LONG_LONG_INT
 #define CPPUTEST_HAVE_LONG_LONG_INT 1
 #endif
 
-/* Define to 1 if you have the 'memset' function. */
+/* Define to 1 if you have the `memset' function. */
 #ifndef CPPUTEST_HAVE_MEMSET
 #define CPPUTEST_HAVE_MEMSET 1
 #endif
@@ -38,7 +38,7 @@
 /* Define if you have POSIX threads libraries and header files. */
 /* #undef HAVE_PTHREAD */
 
-/* Define to 1 if you have the 'pthread_mutex_lock' function. */
+/* Define to 1 if you have the `pthread_mutex_lock' function. */
 #ifndef CPPUTEST_HAVE_PTHREAD_MUTEX_LOCK
 #define CPPUTEST_HAVE_PTHREAD_MUTEX_LOCK 1
 #endif
@@ -63,7 +63,7 @@
 #define CPPUTEST_HAVE_STDLIB_H 1
 #endif
 
-/* Define to 1 if you have the 'strdup' function. */
+/* Define to 1 if you have the `strdup' function. */
 #ifndef CPPUTEST_HAVE_STRDUP
 #define CPPUTEST_HAVE_STRDUP 1
 #endif
@@ -78,7 +78,7 @@
 #define CPPUTEST_HAVE_STRING_H 1
 #endif
 
-/* Define to 1 if you have the 'strstr' function. */
+/* Define to 1 if you have the `strstr' function. */
 #ifndef CPPUTEST_HAVE_STRSTR
 #define CPPUTEST_HAVE_STRSTR 1
 #endif
@@ -103,12 +103,12 @@
 #define CPPUTEST_HAVE_UNISTD_H 1
 #endif
 
-/* Define to 1 if the system has the type 'unsigned long long int'. */
+/* Define to 1 if the system has the type `unsigned long long int'. */
 #ifndef CPPUTEST_HAVE_UNSIGNED_LONG_LONG_INT
 #define CPPUTEST_HAVE_UNSIGNED_LONG_LONG_INT 1
 #endif
 
-/* Define to 1 if you have the 'vfork' function. */
+/* Define to 1 if you have the `vfork' function. */
 #ifndef CPPUTEST_HAVE_VFORK
 #define CPPUTEST_HAVE_VFORK 1
 #endif
@@ -116,17 +116,17 @@
 /* Define to 1 if you have the <vfork.h> header file. */
 /* #undef HAVE_VFORK_H */
 
-/* Define to 1 if you have the 'waitpid' function. */
+/* Define to 1 if you have the `waitpid' function. */
 #ifndef CPPUTEST_HAVE_WAITPID
 #define CPPUTEST_HAVE_WAITPID 1
 #endif
 
-/* Define to 1 if 'fork' works. */
+/* Define to 1 if `fork' works. */
 #ifndef CPPUTEST_HAVE_WORKING_FORK
 #define CPPUTEST_HAVE_WORKING_FORK 1
 #endif
 
-/* Define to 1 if 'vfork' works. */
+/* Define to 1 if `vfork' works. */
 #ifndef CPPUTEST_HAVE_WORKING_VFORK
 #define CPPUTEST_HAVE_WORKING_VFORK 1
 #endif
@@ -184,7 +184,7 @@
    your system. */
 /* #undef PTHREAD_CREATE_JOINABLE */
 
-/* Define to 1 if all of the C89 standard headers exist (not just the ones
+/* Define to 1 if all of the C90 standard headers exist (not just the ones
    required in a freestanding environment). This macro is provided for
    backward compatibility; new code need not use it. */
 #ifndef CPPUTEST_STDC_HEADERS
@@ -217,7 +217,7 @@
    #define below would cause a syntax error. */
 /* #undef _UINT8_T */
 
-/* Define to '__inline__' or '__inline' if that's what the C compiler
+/* Define to `__inline__' or `__inline' if that's what the C compiler
    calls it, or to nothing if 'inline' is not supported under any name.  */
 #ifndef __cplusplus
 /* #undef inline */
@@ -242,7 +242,7 @@
 /* Define as a signed integer type capable of holding a process identifier. */
 /* #undef pid_t */
 
-/* Define as 'unsigned int' if <stddef.h> doesn't define. */
+/* Define to `unsigned int' if <sys/types.h> does not define. */
 /* #undef size_t */
 
 /* Define to the type of an unsigned integer type of width exactly 16 bits if
@@ -261,7 +261,7 @@
    such a type exists and the standard includes do not define it. */
 /* #undef uint8_t */
 
-/* Define as 'fork' if 'vfork' does not work. */
+/* Define as `fork' if `vfork' does not work. */
 /* #undef vfork */
  
 /* once: _GENERATED_CPPUTESTGENERATEDCONFIG_H */
